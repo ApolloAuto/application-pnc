@@ -1,0 +1,27 @@
+{
+    "env": {
+        "defaultSrcPath": "${workspaceFolder}/.aem/envroot/opt/apollo/neo/src",
+        "defaultIncludePath": "${workspaceFolder}/.aem/envroot/opt/apollo/neo/include"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${defaultSrcPath}",
+                "${defaultIncludePath}"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "browse": {
+                "path": [
+                    "${defaultSrcPath}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
