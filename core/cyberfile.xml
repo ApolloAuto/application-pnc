@@ -69,12 +69,12 @@
   <depend repo_name="planning-traffic-rules-backside-vehicle" type="binary">planning-traffic-rules-backside-vehicle</depend>
   <depend repo_name="planning-traffic-rules-crosswalk" type="binary">planning-traffic-rules-crosswalk</depend>
   <depend repo_name="planning-traffic-rules-destination" type="binary">planning-traffic-rules-destination</depend>
-  <depend repo_name="planning-traffic-rules-rerouting" type="binary">planning-traffic-rules-rerouting</depend>
-  <depend repo_name="planning-traffic-rules-rerouting" type="binary">planning-traffic-rules-rerouting</depend>
+  <depend repo_name="planning-traffic-rules-keepclear" type="binary">planning-traffic-rules-keepclear</depend>
   <depend repo_name="planning-traffic-rules-rerouting" type="binary">planning-traffic-rules-rerouting</depend>
   <depend repo_name="planning-traffic-rules-stop-sign" type="binary">planning-traffic-rules-stop-sign</depend>
   <depend repo_name="planning-traffic-rules-traffic-light" type="binary">planning-traffic-rules-traffic-light</depend>
   <depend repo_name="planning-traffic-rules-yield-sign" type="binary">planning-traffic-rules-yield-sign</depend>
+  <depend repo_name="planning-traffic-rules-reference-line-end" type="binary">planning-traffic-rules-reference-line-end</depend>
 
   <!-- transform -->
   <depend repo_name="transform" type="binary">transform</depend>
