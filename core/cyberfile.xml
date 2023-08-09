@@ -87,7 +87,6 @@
   <depend repo_name="control-controller-lat-based-lqr-controller" type="binary">control-controller-lat-based-lqr-controller</depend>
   <depend repo_name="control-controller-lon-based-pid-controller" type="binary">control-controller-lon-based-pid-controller</depend>
   <depend repo_name="control-controller-mpc-controller" type="binary">control-controller-mpc-controller</depend>
-  <depend repo_name="control-controllers-control-task-base" type="binary">control-controllers-control-task-base</depend>
   <depend repo_name="control" type="binary">control</depend>
 
   <!-- map -->
