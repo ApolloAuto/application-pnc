@@ -80,7 +80,7 @@
   <depend repo_name="transform" type="binary">transform</depend>
 
   <!-- prediction -->
-  <depend repo_name="prediction" type="binary">prediction</depend>
+  <depend repo_name="prediction" type="binary">prediction-cpu</depend>
 
   <!-- control -->
   <depend repo_name="control-controller-demo-control-task" type="binary">control-controller-demo-control-task</depend>
