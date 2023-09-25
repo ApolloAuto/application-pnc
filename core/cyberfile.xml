@@ -19,6 +19,8 @@
   <!-- dreamview && monitor -->
   <depend repo_name="dreamview" type="binary">dreamview</depend>
   <depend repo_name="monitor" type="binary">monitor</depend>
+  <depend repo_name="studio-connector" type="binary">studio-connector</depend>
+  <depend repo_name="sim-obstacle" type="binary">sim-obstacle</depend>
 
   <!-- external_command -->
   <depend repo_name="external-command-action" type="binary">external-command-action</depend>
