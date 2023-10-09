@@ -14,7 +14,6 @@
   <depend repo_name="common" type="binary">common</depend>
   <depend repo_name="cyber" type="binary">cyber</depend>
   <depend repo_name="common-msgs" type="binary">common-msgs</depend>
-  <depend repo_name="tools" type="binary">tools</depend>
 
   <!-- dreamview && monitor -->
   <depend repo_name="dreamview" type="binary">dreamview</depend>
