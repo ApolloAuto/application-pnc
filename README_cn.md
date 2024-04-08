@@ -25,7 +25,7 @@ Apollob包管理开发调试样例工程，使用方法参考[包管理安装方
 bash setup.sh
 
 # 启动容器
-aem start
+aem start_cpu
 
 # 进入容器
 aem enter
