@@ -1,6 +1,5 @@
 {
     "repositories" : [
-        {"name": "apollo-tools", "version": "9.0.0-rc-r10"},
         {"name": "apollo-core", "version": "9.0.0-rc-r10"}
     ]
 }
