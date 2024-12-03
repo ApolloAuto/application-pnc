@@ -1,50 +1,26 @@
 vehicle_param {
+  # 车型名称
   brand: NEOLIX
   vehicle_id {
-      other_unique_id: "NEOLIX_EDU"
+      other_unique_id: "dkit_advanced"        # 车型id
   }
-  front_edge_to_center: 2.151
-  back_edge_to_center: 0.534
-  left_edge_to_center: 0.505
-  right_edge_to_center: 0.505
-
-  length: 2.685
-  width: 1.01
-  height: 1.672
-  min_turn_radius: 2.50
-  max_acceleration: 2.3
-  max_deceleration: -7.0
-  max_steer_angle: 6.2491
-  max_steer_angle_rate: 6.98131700798
-  min_steer_angle_rate:0
-  steer_ratio: 10.85
-  wheel_base: 1.73
-  wheel_rolling_radius: 0.286
-  max_abs_speed_when_stopped: 0.03
-  brake_deadzone: 0.1
-  throttle_deadzone: 0.1
-
-  steering_latency_param
-  {
-      dead_time: 0.0
-      rise_time: 0.0
-      peak_time: 0.0
-      settling_time: 0.0
-  }
-
-  throttle_latency_param
-  {
-      dead_time: 0.0
-      rise_time: 0.0
-      peak_time: 0.0
-      settling_time: 0.0
-  }
-
-  brake_latency_param
-  {
-      dead_time: 0.0
-      rise_time: 0.0
-      peak_time: 0.0
-      settling_time: 0.0
-  }
+  front_edge_to_center: 2.151    # 后轴中心到车辆前边缘距离
+  back_edge_to_center: 0.534    # 后轴中心到车辆后边缘距离
+  left_edge_to_center: 0.6    # 后轴中心到车辆左边缘距离
+  right_edge_to_center: 0.6    # 后轴中心到车辆右边缘距离
+ 
+  length: 2.685    # 整车长度
+  width: 1.2    # 整车宽度
+  height: 1.672   # 整车高度
+  min_turn_radius: 2.5    # 车辆最小转弯半径
+  max_acceleration: 2.3    # 车辆最大加速度
+  max_deceleration: -7.0    # 车辆最大减速度
+  max_steer_angle: 6.2491    # 车辆方向盘最大转角（弧度）
+  max_steer_angle_rate: 6.98131700798    # 车辆方向盘最大转速率（弧度/秒）
+  steer_ratio: 10.85    # 车辆方向盘到车前轮转角转换系数
+  wheel_base: 1.73    # 车辆前后轴距离
+  wheel_rolling_radius: 0.286    # 车辆轮胎最小滚动半径
+  max_abs_speed_when_stopped: 0.03    # 车辆停车会最大绝对速度
+  brake_deadzone: 0.1    # 车辆刹车踏板无效区
+  throttle_deadzone: 0.1    # 车辆油门踏板无效区
 }

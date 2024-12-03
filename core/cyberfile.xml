@@ -2,7 +2,7 @@
   <name>core</name>
   <version>local</version>
   <description>
-      depends of apollo core
+    Apollo open source package set
   </description>
   <maintainer email="apollo-support@baidu.com">Apollo Maintainer</maintainer>
   <type>module</type>
@@ -11,15 +11,34 @@
   <author>Apollo</author>
 
   <!-- basic -->
-  <depend repo_name="common" type="binary">common</depend>
-  <depend repo_name="cyber" type="binary">cyber</depend>
-  <depend repo_name="common-msgs" type="binary">common-msgs</depend>
+  <depend repo_name="apollo-data" type="binary">apollo-data</depend>
+  <depend repo_name="tools" type="binary">tools</depend>
+  <depend repo_name="apollo-scripts" type="binary">apollo-scripts</depend>
+
+  <!-- canbus -->
+  <depend repo_name="canbus" type="binary">canbus</depend>
+  <depend repo_name="canbus-vehicle-ch" type="binary">canbus-vehicle-ch</depend>
+  <depend repo_name="canbus-vehicle-ge3" type="binary">canbus-vehicle-ge3</depend>
+  <depend repo_name="canbus-vehicle-gem" type="binary">canbus-vehicle-gem</depend>
+  <depend repo_name="canbus-vehiclekit" type="binary">canbus-vehiclekit</depend>
+  <depend repo_name="canbus-vehicle-lexus" type="binary">canbus-vehicle-lexus</depend>
+  <depend repo_name="canbus-vehicle-lincoln" type="binary">canbus-vehicle-lincoln</depend>
+  <depend repo_name="canbus-vehicle-neolix-edu" type="binary">canbus-vehicle-neolix-edu</depend>
+  <depend repo_name="canbus-vehicle-transit" type="binary">canbus-vehicle-transit</depend>
+  <depend repo_name="canbus-vehicle-wey" type="binary">canbus-vehicle-wey</depend>
+  <depend repo_name="canbus-vehicle-zhongyun" type="binary">canbus-vehicle-zhongyun</depend>
+
+  <!-- control -->
+  <depend repo_name="control-controller-demo-control-task" type="binary">control-controller-demo-control-task</depend>
+  <depend repo_name="control-controller-lat-based-lqr-controller" type="binary">control-controller-lat-based-lqr-controller</depend>
+  <depend repo_name="control-controller-lon-based-pid-controller" type="binary">control-controller-lon-based-pid-controller</depend>
+  <depend repo_name="control-controller-mpc-controller" type="binary">control-controller-mpc-controller</depend>
+  <depend repo_name="control" type="binary">control</depend>
 
   <!-- dreamview && monitor -->
   <depend repo_name="dreamview" type="binary">dreamview</depend>
+  <depend repo_name="dreamview-plus" type="binary">dreamview-plus</depend>
   <depend repo_name="monitor" type="binary">monitor</depend>
-  <depend repo_name="studio-connector" type="binary">studio-connector</depend>
-  <depend repo_name="sim-obstacle" type="binary">sim-obstacle</depend>
 
   <!-- external_command -->
   <depend repo_name="external-command-action" type="binary">external-command-action</depend>
@@ -31,24 +50,19 @@
   <depend repo_name="old-routing-adpter" type="binary">old-routing-adpter</depend>
   <depend repo_name="routing" type="binary">routing</depend>
 
-  <!-- planning1 -->
-  <depend repo_name="planning" type="binary">planning</depend>
+  <!-- localization -->
+  <depend repo_name="localization" type="binary">localization</depend>
+  <!-- map -->
+  <depend repo_name="map" type="binary">map</depend>
 
-  <!-- transform -->
-  <depend repo_name="transform" type="binary">transform</depend>
+  <!-- planning -->
+  <depend repo_name="planning" type="binary">planning</depend>
 
   <!-- prediction -->
   <depend repo_name="prediction" type="binary">prediction</depend>
 
-  <!-- control -->
-  <depend repo_name="control-controller-demo-control-task" type="binary">control-controller-demo-control-task</depend>
-  <depend repo_name="control-controller-lat-based-lqr-controller" type="binary">control-controller-lat-based-lqr-controller</depend>
-  <depend repo_name="control-controller-lon-based-pid-controller" type="binary">control-controller-lon-based-pid-controller</depend>
-  <depend repo_name="control-controller-mpc-controller" type="binary">control-controller-mpc-controller</depend>
-  <depend repo_name="control" type="binary">control</depend>
-
-  <!-- map -->
-  <depend repo_name="map" type="binary">map</depend>
+  <!-- transform -->
+  <depend repo_name="transform" type="binary">transform</depend>
 
   <builder>bazel</builder>
 </package>
