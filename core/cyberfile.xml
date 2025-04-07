@@ -12,21 +12,11 @@
 
   <!-- basic -->
   <depend repo_name="apollo-data" type="binary">apollo-data</depend>
-  <depend repo_name="tools" type="binary">tools</depend>
   <depend repo_name="apollo-scripts" type="binary">apollo-scripts</depend>
 
   <!-- canbus -->
   <depend repo_name="canbus" type="binary">canbus</depend>
-  <depend repo_name="canbus-vehicle-ch" type="binary">canbus-vehicle-ch</depend>
-  <depend repo_name="canbus-vehicle-ge3" type="binary">canbus-vehicle-ge3</depend>
-  <depend repo_name="canbus-vehicle-gem" type="binary">canbus-vehicle-gem</depend>
-  <depend repo_name="canbus-vehiclekit" type="binary">canbus-vehiclekit</depend>
-  <depend repo_name="canbus-vehicle-lexus" type="binary">canbus-vehicle-lexus</depend>
-  <depend repo_name="canbus-vehicle-lincoln" type="binary">canbus-vehicle-lincoln</depend>
-  <depend repo_name="canbus-vehicle-neolix-edu" type="binary">canbus-vehicle-neolix-edu</depend>
-  <depend repo_name="canbus-vehicle-transit" type="binary">canbus-vehicle-transit</depend>
-  <depend repo_name="canbus-vehicle-wey" type="binary">canbus-vehicle-wey</depend>
-  <depend repo_name="canbus-vehicle-zhongyun" type="binary">canbus-vehicle-zhongyun</depend>
+
 
   <!-- control -->
   <depend repo_name="control-controller-demo-control-task" type="binary">control-controller-demo-control-task</depend>
@@ -64,5 +54,9 @@
   <!-- transform -->
   <depend repo_name="transform" type="binary">transform</depend>
 
+  <depend repo_name="sim-obstacle" type="binary">sim-obstacle</depend>
+  <depend repo_name="studio-connector" type="binary">studio-connector</depend>
+  <depend repo_name="agent-server" type="binary">agent-server</depend>
+  <depend repo_name="simulator-plugin" type="binary">simulator-plugin</depend>
   <builder>bazel</builder>
 </package>
