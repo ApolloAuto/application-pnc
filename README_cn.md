@@ -6,8 +6,8 @@ Apollob包管理开发调试样例工程，使用方法参考[包管理安装方
 
 ```shell
 .
-├── core              # 依赖包配置，包括pnc赛事涉及的apollo核心包
-├── profiles          # 赛事配置，包括车辆配置、地图配置等
+├── core              # 依赖包配置，包括apollo核心包，以及一些工具包
+├── profiles          # 整车应用配置，以单lidar、双camera车型为例
 ├── .env*             # 环境配置文件，包括容器名、镜像源等
 ├── .workspace.json*  # 软件包源配置文件，包括依赖的软件版本号
 ├── .buildtool*       # 编译配置文件
@@ -18,6 +18,15 @@ Apollob包管理开发调试样例工程，使用方法参考[包管理安装方
 
 ## 安装步骤
 
+## 更新AEM版本
+如果您没有安装过Apollo环境管理工具，请参考 [安装 Apollo 环境管理工具](https://apollo.baidu.com/community/Apollo-Homepage-Document?doc=BYFxAcGcC4HpYIbgPYBtXIHQCMEEsATAV0wGNkBbWA5UyRFdZWVBEAU0hFgoIH0adPgCY%2BADwCiAVnEBBCeIAcATnETFcgMxKZkgGxKAwkoDsa3YoAi45WdGSLxsYt0SzY%2BXICMa98oAMSgYALF7%2B2NhemsLBJsrCYZqKwors7AikBIp6miYmpFJSXpigFKgAxAhEIMg1pHy8KUA) 进行安装。
+
+如果您之前安装过AEM版本，10.0版本需要升级aem到最新版本，请现在宿主机环境执行:
+```shell
+sudo apt upate
+sudo apt install apollo-neo-env-manager-dev --reinstall
+```
+
 ### 初次安装
 如果第一次安装，请在`git clone`后执行以下命令：
 ```shell
@@ -25,7 +34,7 @@ Apollob包管理开发调试样例工程，使用方法参考[包管理安装方
 bash setup.sh
 
 # 启动容器
-aem start_cpu
+aem start
 
 # 进入容器
 aem enter
