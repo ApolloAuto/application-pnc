@@ -1,0 +1,34 @@
+agent_server_kernel_version : "Linux in-dev-docker 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64 x86_64 x86_64 GNU/Linux
+"
+agent_server_process_cmdline : "/opt/apollo/neo/bin/agent_server
+true
+false
+--flagfile=/apollo/modules/common/data/global_flagfile.txt
+"
+agent_server_process_context_switches_involuntary_second : 0
+agent_server_process_context_switches_voluntary_second : 11035
+agent_server_process_cpu_usage : 0.112
+agent_server_process_cpu_usage_system : 0.102
+agent_server_process_cpu_usage_user : 0.010
+agent_server_process_disk_read_bytes_second : 0
+agent_server_process_disk_write_bytes_second : 1638
+agent_server_process_faults_major : 1079
+agent_server_process_faults_minor_second : 0
+agent_server_process_fd_count : 36
+agent_server_process_inblocks_second : 0
+agent_server_process_io_read_bytes_second : 722
+agent_server_process_io_read_second : 6
+agent_server_process_io_write_bytes_second : 1106
+agent_server_process_io_write_second : 0
+agent_server_process_memory_data_and_stack : 1237630976
+agent_server_process_memory_resident : 441892864
+agent_server_process_memory_shared : 303304704
+agent_server_process_memory_text : 1011712
+agent_server_process_memory_virtual : 8785932288
+agent_server_process_nice : 0
+agent_server_process_outblocks_second : 3
+agent_server_process_priority : 20
+agent_server_process_thread_count : 33
+agent_server_process_uptime : 10935.103680
+agent_server_process_username : "unknown (No such device or address)"
+agent_server_process_work_dir : "/apollo_workspace"

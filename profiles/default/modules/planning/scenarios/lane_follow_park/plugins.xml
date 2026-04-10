@@ -1,0 +1,5 @@
+<library path="modules/planning/scenarios/lane_follow_park/liblane_follow_park_scenario.so">
+    <class type="apollo::planning::LaneFollowParkScenario" base_class="apollo::planning::Scenario"></class>
+    <class type="apollo::planning::LaneFollowParkStage" base_class="apollo::planning::Stage"></class>
+    <class type="apollo::planning::LaneEscapeParkStage" base_class="apollo::planning::Stage"></class>
+</library>

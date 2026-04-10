@@ -1,0 +1,32 @@
+dreamview_plus_kernel_version : "Linux in-dev-docker 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64 x86_64 x86_64 GNU/Linux
+"
+dreamview_plus_process_cmdline : "dreamview_plus
+--flagfile=/apollo/modules/dreamview_plus/conf/dreamview.conf
+"
+dreamview_plus_process_context_switches_involuntary_second : 0
+dreamview_plus_process_context_switches_voluntary_second : 11025
+dreamview_plus_process_cpu_usage : 0.142
+dreamview_plus_process_cpu_usage_system : 0.116
+dreamview_plus_process_cpu_usage_user : 0.026
+dreamview_plus_process_disk_read_bytes_second : 0
+dreamview_plus_process_disk_write_bytes_second : 9420
+dreamview_plus_process_faults_major : 148
+dreamview_plus_process_faults_minor_second : 0
+dreamview_plus_process_fd_count : 88
+dreamview_plus_process_inblocks_second : 0
+dreamview_plus_process_io_read_bytes_second : 586
+dreamview_plus_process_io_read_second : 5
+dreamview_plus_process_io_write_bytes_second : 7643
+dreamview_plus_process_io_write_second : 2
+dreamview_plus_process_memory_data_and_stack : 977489920
+dreamview_plus_process_memory_resident : 549711872
+dreamview_plus_process_memory_shared : 201019392
+dreamview_plus_process_memory_text : 684032
+dreamview_plus_process_memory_virtual : 2365505536
+dreamview_plus_process_nice : 0
+dreamview_plus_process_outblocks_second : 18
+dreamview_plus_process_priority : 20
+dreamview_plus_process_thread_count : 72
+dreamview_plus_process_uptime : 10992.640048
+dreamview_plus_process_username : "unknown (No such device or address)"
+dreamview_plus_process_work_dir : "/apollo_workspace"

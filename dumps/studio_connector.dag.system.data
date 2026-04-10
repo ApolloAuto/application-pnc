@@ -1,0 +1,38 @@
+mainboard_kernel_version : "Linux in-dev-docker 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64 x86_64 x86_64 GNU/Linux
+"
+mainboard_process_cmdline : "mainboard
+-d
+modules/studio_connector/studio_connector.dag
+-p
+mainboard_default_9142
+-s
+CYBER_DEFAULT
+--disable_plugin_autoload
+"
+mainboard_process_context_switches_involuntary_second : 0
+mainboard_process_context_switches_voluntary_second : 10153
+mainboard_process_cpu_usage : 0.085
+mainboard_process_cpu_usage_system : 0.079
+mainboard_process_cpu_usage_user : 0.006
+mainboard_process_disk_read_bytes_second : 0
+mainboard_process_disk_write_bytes_second : 1229
+mainboard_process_faults_major : 160
+mainboard_process_faults_minor_second : 0
+mainboard_process_fd_count : 24
+mainboard_process_inblocks_second : 0
+mainboard_process_io_read_bytes_second : 571
+mainboard_process_io_read_second : 5
+mainboard_process_io_write_bytes_second : 537
+mainboard_process_io_write_second : 0
+mainboard_process_memory_data_and_stack : 541614080
+mainboard_process_memory_resident : 407597056
+mainboard_process_memory_shared : 161214464
+mainboard_process_memory_text : 606208
+mainboard_process_memory_virtual : 1813045248
+mainboard_process_nice : 0
+mainboard_process_outblocks_second : 2
+mainboard_process_priority : 20
+mainboard_process_thread_count : 31
+mainboard_process_uptime : 10987.265306
+mainboard_process_username : "unknown (No such device or address)"
+mainboard_process_work_dir : "/apollo_workspace"

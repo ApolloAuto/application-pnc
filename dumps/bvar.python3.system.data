@@ -1,0 +1,33 @@
+python3_kernel_version : "Linux in-dev-docker 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64 x86_64 x86_64 GNU/Linux
+"
+python3_process_cmdline : "/usr/bin/python3
+/opt/apollo/neo/bin/cyber_node.runfiles/apollo-park-generic/cyber/tools/cyber_node/cyber_node.py
+list
+"
+python3_process_context_switches_involuntary_second : 0
+python3_process_context_switches_voluntary_second : 0
+python3_process_cpu_usage : 0.000
+python3_process_cpu_usage_system : 0.000
+python3_process_cpu_usage_user : 0.000
+python3_process_disk_read_bytes_second : 0
+python3_process_disk_write_bytes_second : 0
+python3_process_faults_major : 40
+python3_process_faults_minor_second : 0
+python3_process_fd_count : 16
+python3_process_inblocks_second : 0
+python3_process_io_read_bytes_second : 0
+python3_process_io_read_second : 0
+python3_process_io_write_bytes_second : 0
+python3_process_io_write_second : 0
+python3_process_memory_data_and_stack : 246497280
+python3_process_memory_resident : 49831936
+python3_process_memory_shared : 31363072
+python3_process_memory_text : 3883008
+python3_process_memory_virtual : 2121154560
+python3_process_nice : 0
+python3_process_outblocks_second : 0
+python3_process_priority : 20
+python3_process_thread_count : 26
+python3_process_uptime : 0.525938
+python3_process_username : "unknown (No such device or address)"
+python3_process_work_dir : "/apollo_workspace"
