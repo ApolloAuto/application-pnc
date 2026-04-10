@@ -1,0 +1,11 @@
+mainboard_bvar_dump_interval : 10
+mainboard_cpu_usage_count : 1
+mainboard_gcc_version : "7.5.0"
+mainboard_mem_resident_usage_count : 1
+mainboard_pgrp : 8844
+mainboard_pid : 58183
+mainboard_ppid : 8211
+mainboard_system_core_count : 16
+mainboard_system_loadavg_15m : 2.310
+mainboard_system_loadavg_1m : 1.790
+mainboard_system_loadavg_5m : 2.420

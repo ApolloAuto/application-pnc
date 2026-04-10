@@ -1,0 +1,33 @@
+mainboard_kernel_version : "Linux in-dev-docker 6.8.0-106-generic #106~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Mar  6 08:44:59 UTC  x86_64 x86_64 x86_64 GNU/Linux
+"
+mainboard_process_cmdline : "mainboard
+-d
+/apollo/modules/control/control_component/dag/control.dag
+"
+mainboard_process_context_switches_involuntary_second : 0
+mainboard_process_context_switches_voluntary_second : 0
+mainboard_process_cpu_usage : 0.000
+mainboard_process_cpu_usage_system : 0.000
+mainboard_process_cpu_usage_user : 0.000
+mainboard_process_disk_read_bytes_second : 0
+mainboard_process_disk_write_bytes_second : 0
+mainboard_process_faults_major : 0
+mainboard_process_faults_minor_second : 0
+mainboard_process_fd_count : 15
+mainboard_process_inblocks_second : 0
+mainboard_process_io_read_bytes_second : 0
+mainboard_process_io_read_second : 0
+mainboard_process_io_write_bytes_second : 0
+mainboard_process_io_write_second : 0
+mainboard_process_memory_data_and_stack : 177385472
+mainboard_process_memory_resident : 35168256
+mainboard_process_memory_shared : 25391104
+mainboard_process_memory_text : 606208
+mainboard_process_memory_virtual : 368308224
+mainboard_process_nice : 0
+mainboard_process_outblocks_second : 0
+mainboard_process_priority : 20
+mainboard_process_thread_count : 2
+mainboard_process_uptime : 0.012172
+mainboard_process_username : "unknown (No such device or address)"
+mainboard_process_work_dir : "/apollo_workspace"

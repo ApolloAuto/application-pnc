@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package apollo.planning;
+
+message ScenarioLaneFollowParkConfig {
+  optional double escape_reverse_distance = 1 [default = 5.0];
+  optional double escape_stop_distance = 2 [default = 1.0];
+  optional int32 success_path_count = 3 [default = 10];
+  optional int32 queue_check_count = 4 [default = 100];
+  optional int32 stable_block_count = 5 [default = 30];
+  optional int32 stop_check_window = 6 [default = 10];
+  optional double forward_path_length = 7 [default = 15.0];
+  optional double passby_min_gap = 8 [default = 0.5];
+  optional double min_distance_block_obs_to_junction = 9 [default = 22.0];
+}
