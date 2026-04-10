@@ -6,10 +6,10 @@ false
 --flagfile=/apollo/modules/common/data/global_flagfile.txt
 "
 agent_server_process_context_switches_involuntary_second : 0
-agent_server_process_context_switches_voluntary_second : 10993
-agent_server_process_cpu_usage : 0.111
-agent_server_process_cpu_usage_system : 0.104
-agent_server_process_cpu_usage_user : 0.007
+agent_server_process_context_switches_voluntary_second : 11035
+agent_server_process_cpu_usage : 0.112
+agent_server_process_cpu_usage_system : 0.102
+agent_server_process_cpu_usage_user : 0.010
 agent_server_process_disk_read_bytes_second : 0
 agent_server_process_disk_write_bytes_second : 1638
 agent_server_process_faults_major : 1079
@@ -29,6 +29,6 @@ agent_server_process_nice : 0
 agent_server_process_outblocks_second : 3
 agent_server_process_priority : 20
 agent_server_process_thread_count : 33
-agent_server_process_uptime : 10735.016869
+agent_server_process_uptime : 10935.103680
 agent_server_process_username : "unknown (No such device or address)"
 agent_server_process_work_dir : "/apollo_workspace"

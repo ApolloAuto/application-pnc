@@ -9,22 +9,22 @@ monitor
 CYBER_DEFAULT
 "
 mainboard_process_context_switches_involuntary_second : 0
-mainboard_process_context_switches_voluntary_second : 10771
+mainboard_process_context_switches_voluntary_second : 10677
 mainboard_process_cpu_usage : 0.106
-mainboard_process_cpu_usage_system : 0.095
-mainboard_process_cpu_usage_user : 0.012
+mainboard_process_cpu_usage_system : 0.096
+mainboard_process_cpu_usage_user : 0.011
 mainboard_process_disk_read_bytes_second : 0
-mainboard_process_disk_write_bytes_second : 2048
+mainboard_process_disk_write_bytes_second : 2047
 mainboard_process_faults_major : 3
 mainboard_process_faults_minor_second : 0
 mainboard_process_fd_count : 19
 mainboard_process_inblocks_second : 0
-mainboard_process_io_read_bytes_second : 22873
-mainboard_process_io_read_second : 401
-mainboard_process_io_write_bytes_second : 828
-mainboard_process_io_write_second : 0
+mainboard_process_io_read_bytes_second : 12683
+mainboard_process_io_read_second : 309
+mainboard_process_io_write_bytes_second : 832
+mainboard_process_io_write_second : 1
 mainboard_process_memory_data_and_stack : 504434688
-mainboard_process_memory_resident : 339603456
+mainboard_process_memory_resident : 339619840
 mainboard_process_memory_shared : 94728192
 mainboard_process_memory_text : 606208
 mainboard_process_memory_virtual : 1447895040
@@ -32,6 +32,6 @@ mainboard_process_nice : 0
 mainboard_process_outblocks_second : 4
 mainboard_process_priority : 20
 mainboard_process_thread_count : 28
-mainboard_process_uptime : 10785.858298
+mainboard_process_uptime : 10995.900586
 mainboard_process_username : "unknown (No such device or address)"
 mainboard_process_work_dir : "/apollo_workspace"

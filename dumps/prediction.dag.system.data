@@ -5,9 +5,9 @@ mainboard_process_cmdline : "mainboard
 /apollo/modules/prediction/dag/prediction.dag
 "
 mainboard_process_context_switches_involuntary_second : 0
-mainboard_process_context_switches_voluntary_second : 10166
-mainboard_process_cpu_usage : 0.094
-mainboard_process_cpu_usage_system : 0.088
+mainboard_process_context_switches_voluntary_second : 10211
+mainboard_process_cpu_usage : 0.087
+mainboard_process_cpu_usage_system : 0.082
 mainboard_process_cpu_usage_user : 0.006
 mainboard_process_disk_read_bytes_second : 0
 mainboard_process_disk_write_bytes_second : 1638
@@ -28,6 +28,6 @@ mainboard_process_nice : 0
 mainboard_process_outblocks_second : 3
 mainboard_process_priority : 20
 mainboard_process_thread_count : 62
-mainboard_process_uptime : 1530.316161
+mainboard_process_uptime : 1740.417460
 mainboard_process_username : "unknown (No such device or address)"
 mainboard_process_work_dir : "/apollo_workspace"
